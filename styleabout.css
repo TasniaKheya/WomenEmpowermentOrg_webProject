@@ -1,0 +1,118 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#secc
+{
+    height: 110vh;
+    background-color: pink;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+   
+   
+   
+}
+
+
+h1 
+{
+   
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border: 5px solid black;
+    width: 600px;
+    margin-left:28%;
+    text-decoration: none;
+    padding: 12px 34px;
+    margin-bottom: 70px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.column
+{
+    display:inline-table;
+    justify-content:space-between;
+    max-width: 400px;
+    margin-right: 45px;
+}
+.abc
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.row1
+{
+    flex-basis: 21%;
+    background-color:lightgreen;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 420px;
+}
+
+.row2
+{
+    flex-basis: 21%;
+    background-color:lightseagreen;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 200px;
+
+}
+.row3
+{
+    flex-basis: 21%;
+    background-color:lightsalmon;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 200px;
+
+}
+
+.row4
+{
+    flex-basis: 21%;
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 200px;
+
+}
+.row5
+{
+    flex-basis: 21%;
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 200px;
+
+}
+
+.icons
+{
+    margin-right: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    justify-content: space-between;
+}

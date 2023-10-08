@@ -1,0 +1,41 @@
+body 
+{font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(4,4,4,0.2),rgba(7,7,7,0.2)),url(images/istockphoto.jpg);
+    
+   width: 80%;
+   align-items: center;
+   margin-left: 10%;
+}
+*{
+    box-sizing: border-box
+}
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+  }
+  p{
+      color: red
+  }
+  input[type=text],input[type=password],input[type=date]
+  {
+      width:100%;
+      padding: 15px;
+      margin:5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+      
+  }
+  input[type=submit] {
+    background-color: tomato;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    margin-left: 30%;
+   
+   display: flex;
+   justify-content: center;
+  }
